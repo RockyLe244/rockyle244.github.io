@@ -1,9 +1,0 @@
-services:
-  web:
-    image: nginx:1.23-alpine
-    volumes:
-      - ./nginx/templates:/etc/nginx/templates
-    ports:
-      - 8000:8000
-    environment:
-      - NGINX_PORT=8000

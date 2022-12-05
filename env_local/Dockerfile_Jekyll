@@ -1,9 +1,0 @@
-From ruby:3-alpine
-
-# Install build-base (GCC, G++, Make)
-RUN apk add build-base
-
-# Install Jekyll
-RUN gem install jekyll bundler
-
-CMD ["irb"]
